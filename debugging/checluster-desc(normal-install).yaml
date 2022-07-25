@@ -1,0 +1,100 @@
+Name:         eclipse-che
+Namespace:    eclipse-che
+Labels:       <none>
+Annotations:  che.eclipse.org/cheClusterV2alpha1Spec:
+                enabled: true
+                gateway:
+                  enabled: true
+                  image: quay.io/eclipse/che--traefik:v2.5.0-eb30f9f09a65cee1fab5ef9c64cb4ec91b800dc3fdd738d62a9d4334f0114683
+                k8s: {}
+                workspaces:
+                  domainEndpoints: {}
+API Version:  org.eclipse.che/v1
+Kind:         CheCluster
+Metadata:
+  Creation Timestamp:  2022-02-08T09:21:16Z
+  Finalizers:
+    checluster.che.eclipse.org
+    cheGateway.clusterpermissions.finalizers.che.eclipse.org
+    cheWorkspaces.clusterpermissions.finalizers.che.eclipse.org
+    namespaces-editor.permissions.finalizers.che.eclipse.org
+    devWorkspace.permissions.finalizers.che.eclipse.org
+    oauthclients.finalizers.che.eclipse.org
+    consolelink.finalizers.che.eclipse.org
+    consolelink.finalizers.che.eclipse.org
+  Generation:        11
+  Resource Version:  34303
+  UID:               ab3940ac-ccdf-43d6-b077-6202c7d30fcd
+Spec:
+  Auth:
+    External Identity Provider:  false
+    Identity Provider Container Resources:
+      Limits:
+      Request:
+    Identity Provider Ingress:
+    Identity Provider Route:
+    Native User Mode:       true
+    O Auth Client Name:     eclipse-che-openshift-identity-provider-8gclry
+    O Auth Secret:          bEhhsFMXuhpe
+    Update Admin Password:  true
+  Database:
+    Che Postgres Container Resources:
+      Limits:
+      Request:
+    Che Postgres Db:         dbche
+    Che Postgres Host Name:  postgres
+    Che Postgres Port:       5432
+    Che Postgres Secret:     che-postgres-secret
+    External Db:             false
+    Postgres Version:        13.3
+  Dev Workspace:
+    Enable:  true
+  Image Puller:
+    Enable:  false
+    Spec:
+  k8s:
+    Tls Secret Name:  che-tls
+  Metrics:
+    Enable:  true
+  Server:
+    Allow User Defined Workspace Namespaces:  false
+    Che Debug:                                false
+    Che Host:                                 che-eclipse-che.apps.mloriedo-devworkspaces.devcluster.openshift.com
+    Che Log Level:                            INFO
+    Che Server Ingress:
+    Che Server Route:
+    Dashboard Ingress:
+    Dashboard Route:
+    Devfile Registry Ingress:
+    Devfile Registry Route:
+    External Devfile Registry:  false
+    External Plugin Registry:   false
+    Git Self Signed Cert:       false
+    Plugin Registry Ingress:
+    Plugin Registry Route:
+    Self Signed Cert:                true
+    Single Host Gateway Image:       quay.io/eclipse/che--traefik:v2.5.0-eb30f9f09a65cee1fab5ef9c64cb4ec91b800dc3fdd738d62a9d4334f0114683
+    Tls Support:                     true
+    Use Internal Cluster SVC Names:  false
+    Workspace Namespace Default:     <username>-che
+  Storage:
+    Pre Create Sub Paths:  true
+    Pvc Claim Size:        10Gi
+    Pvc Strategy:          common
+Status:
+  Che Cluster Running:   Available
+  Che URL:               https://che-eclipse-che.apps.mloriedo-devworkspaces.devcluster.openshift.com
+  Che Version:           next
+  Db Provisioned:        false
+  Devfile Registry URL:  https://che-eclipse-che.apps.mloriedo-devworkspaces.devcluster.openshift.com/devfile-registry
+  Devworkspace Status:
+    Gateway Host:                che-eclipse-che.apps.mloriedo-devworkspaces.devcluster.openshift.com
+    Gateway Phase:               Established
+    Phase:                       Active
+    Workspace Base Domain:       apps.mloriedo-devworkspaces.devcluster.openshift.com
+  Git Hub O Auth Provisioned:    false
+  Keycloak Provisioned:          false
+  Keycloak URL:
+  Open Shifto Auth Provisioned:  false
+  Plugin Registry URL:           https://che-eclipse-che.apps.mloriedo-devworkspaces.devcluster.openshift.com/plugin-registry/v3
+Events:                          <none>

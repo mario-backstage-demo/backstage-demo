@@ -1,0 +1,141 @@
+Name:         eclipse-che
+Namespace:    eclipse-che
+Labels:       app.kubernetes.io/instance=code-ready-workspaces-instance
+Annotations:  <none>
+API Version:  org.eclipse.che/v1
+Kind:         CheCluster
+Metadata:
+  Creation Timestamp:  2022-02-07T21:56:28Z
+  Finalizers:
+    cheGateway.clusterpermissions.finalizers.che.eclipse.org
+    cheWorkspaces.clusterpermissions.finalizers.che.eclipse.org
+    namespaces-editor.permissions.finalizers.che.eclipse.org
+    devWorkspace.permissions.finalizers.che.eclipse.org
+    oauthclients.finalizers.che.eclipse.org
+    consolelink.finalizers.che.eclipse.org
+  Generation:  12
+  Managed Fields:
+    API Version:  org.eclipse.che/v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .:
+          f:kubectl.kubernetes.io/last-applied-configuration:
+        f:labels:
+          .:
+          f:app.kubernetes.io/instance:
+      f:spec:
+        .:
+        f:server:
+          .:
+          f:allowUserDefinedWorkspaceNamespaces:
+          f:cheDebug:
+          f:cheFlavor:
+          f:cheLogLevel:
+          f:cheServerIngress:
+          f:cheServerRoute:
+          f:dashboardIngress:
+          f:dashboardRoute:
+          f:devfileRegistryIngress:
+          f:devfileRegistryRoute:
+          f:externalDevfileRegistry:
+          f:externalPluginRegistry:
+          f:gitSelfSignedCert:
+          f:pluginRegistryIngress:
+          f:pluginRegistryRoute:
+          f:selfSignedCert:
+          f:serverExposureStrategy:
+          f:tlsSupport:
+          f:useInternalClusterSVCNames:
+          f:workspaceNamespaceDefault:
+    Manager:      argocd-application-controller
+    Operation:    Update
+    Time:         2022-02-07T21:56:28Z
+    API Version:  org.eclipse.che/v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:finalizers:
+          v:"consolelink.finalizers.che.eclipse.org":
+      f:status:
+        f:cheClusterRunning:
+        f:cheURL:
+        f:cheVersion:
+        f:devfileRegistryURL:
+        f:pluginRegistryURL:
+    Manager:         manager
+    Operation:       Update
+    Time:            2022-02-07T22:01:59Z
+  Resource Version:  340356
+  UID:               96611e04-6579-41f8-ac51-91b0b0f7d6cb
+Spec:
+  Auth:
+    External Identity Provider:  false
+    Identity Provider Container Resources:
+      Limits:
+      Request:
+    Identity Provider Ingress:
+    Identity Provider Route:
+    O Auth Client Name:     eclipse-che-openshift-identity-provider-kmwgio
+    O Auth Secret:          tUHqqQOpnJlU
+    Update Admin Password:  false
+  Database:
+    Che Postgres Container Resources:
+      Limits:
+      Request:
+    Che Postgres Db:         dbche
+    Che Postgres Host Name:  postgres
+    Che Postgres Port:       5432
+    Che Postgres Secret:     che-postgres-secret
+    External Db:             false
+    Postgres Version:        13.3
+  Dev Workspace:
+    Enable:  false
+  Image Puller:
+    Enable:  false
+    Spec:
+  k8s:
+  Metrics:
+    Enable:  false
+  Server:
+    Allow User Defined Workspace Namespaces:  false
+    Che Debug:                                false
+    Che Flavor:                               che
+    Che Host:                                 che-eclipse-che.apps.cluster-pb2d2.pb2d2.sandbox1409.opentlc.com
+    Che Log Level:                            INFO
+    Che Server Ingress:
+    Che Server Route:
+    Dashboard Ingress:
+    Dashboard Route:
+    Devfile Registry Ingress:
+    Devfile Registry Route:
+    External Devfile Registry:  false
+    External Plugin Registry:   false
+    Git Self Signed Cert:       false
+    Plugin Registry Ingress:
+    Plugin Registry Route:
+    Self Signed Cert:                false
+    Server Exposure Strategy:        single-host
+    Tls Support:                     true
+    Use Internal Cluster SVC Names:  false
+    Workspace Namespace Default:     <username>-che
+  Storage:
+    Pre Create Sub Paths:  false
+    Pvc Claim Size:        10Gi
+    Pvc Strategy:          common
+Status:
+  Che Cluster Running:   Available
+  Che URL:               https://che-eclipse-che.apps.cluster-pb2d2.pb2d2.sandbox1409.opentlc.com
+  Che Version:           next
+  Db Provisioned:        false
+  Devfile Registry URL:  https://che-eclipse-che.apps.cluster-pb2d2.pb2d2.sandbox1409.opentlc.com/devfile-registry
+  Devworkspace Status:
+    Message:                     DevWorkspace CRDs are not installed
+    Phase:                       Inactive
+  Git Hub O Auth Provisioned:    false
+  Keycloak Provisioned:          false
+  Keycloak URL:
+  Open Shifto Auth Provisioned:  false
+  Plugin Registry URL:           https://che-eclipse-che.apps.cluster-pb2d2.pb2d2.sandbox1409.opentlc.com/plugin-registry/v3
+Events:                          <none>

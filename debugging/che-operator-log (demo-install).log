@@ -1,0 +1,137 @@
+2022-02-07T16:34:16.846Z	INFO	Binary info 	{"Go version": "go1.16.12"}
+2022-02-07T16:34:16.846Z	INFO	Binary info 	{"OS": "linux", "Arch": "amd64"}
+2022-02-07T16:34:16.846Z	INFO	Address 	{"Metrics": ":60000"}
+2022-02-07T16:34:16.846Z	INFO	Address 	{"Probe": ":6789"}
+2022-02-07T16:34:16.846Z	INFO	Operator is running on 	{"Infrastructure": "OpenShift v4.x"}
+I0207 16:34:17.901299       1 request.go:668] Waited for 1.028131854s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/node.k8s.io/v1beta1?timeout=32s
+2022-02-07T16:34:32.006Z	INFO	setup	Leader election was disabled	{"Cause:": "leasesk8s api resource is an absent."}
+time="2022-02-07T16:34:32Z" level=info msg="Limit cache by selector: app.kubernetes.io/part-of=che.eclipse.org"
+I0207 16:34:33.057496       1 request.go:668] Waited for 1.045300929s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/controller.devfile.io/v1alpha1?timeout=32s
+2022-02-07T16:34:44.824Z	INFO	controller-runtime.metrics	metrics server is starting to listen	{"addr": ":60000"}
+I0207 16:34:45.875231       1 request.go:668] Waited for 1.045958834s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/pipelines.openshift.io/v1alpha1?timeout=32s
+time="2022-02-07T16:34:56Z" level=info msg="Use 'terminationGracePeriodSeconds' 20 sec. from operator deployment."
+time="2022-02-07T16:34:56Z" level=info msg="Set up process signal handler"
+I0207 16:34:57.668726       1 request.go:668] Waited for 1.044826362s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/network.openshift.io/v1?timeout=32s
+2022-02-07T16:35:10.778Z	INFO	setup	DevWorkspace support disabled. Will initiate restart when CheCluster with devworkspaces enabled will appear
+2022-02-07T16:35:10.778Z	INFO	setup	starting manager
+2022-02-07T16:35:10.778Z	INFO	controller-runtime.manager	starting metrics server	{"path": "/metrics"}
+2022-02-07T16:35:10.778Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.778Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.778Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.778Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.778Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.778Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.778Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.778Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.779Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.779Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.778Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.779Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.779Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.779Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.779Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.779Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.779Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.779Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.779Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.779Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.779Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.779Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.779Z	INFO	controller-runtime.manager.controller.checluster	Starting Controller	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster"}
+2022-02-07T16:35:10.779Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T16:35:10.782Z	INFO	controller-runtime.manager.controller.checluster	Starting Controller	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster"}
+I0207 16:35:11.831271       1 request.go:668] Waited for 1.045490948s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/route.openshift.io/v1?timeout=32s
+2022-02-07T16:35:18.087Z	INFO	controller-runtime.manager.controller.checluster	Starting workers	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "worker count": 1}
+2022-02-07T16:35:18.087Z	INFO	controller-runtime.manager.controller.checluster	Starting workers	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "worker count": 1}
+I0207 21:56:30.744280       1 request.go:668] Waited for 1.048243468s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/operators.coreos.com/v1alpha1?timeout=32s
+time="2022-02-07T21:56:39Z" level=info msg="Creating a new object: v1.ConfigMap, name: ca-certs-merged"
+I0207 21:56:40.762108       1 request.go:668] Waited for 1.193384338s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/autoscaling/v2beta1?timeout=32s
+time="2022-02-07T21:56:48Z" level=info msg="Creating a new object: v1.ServiceAccount, name: che"
+time="2022-02-07T21:56:48Z" level=info msg="Creating a new object: v1.ClusterRole, name: eclipse-che-che-gateway"
+time="2022-02-07T21:56:48Z" level=info msg="Creating a new object: v1.ClusterRoleBinding, name: eclipse-che-che-gateway"
+time="2022-02-07T21:56:48Z" level=info msg="Added finalizer: cheGateway.clusterpermissions.finalizers.che.eclipse.org"
+time="2022-02-07T21:56:48Z" level=info msg="Creating a new object: v1.ClusterRole, name: eclipse-che-cheworkspaces-clusterrole"
+time="2022-02-07T21:56:48Z" level=info msg="Creating a new object: v1.ClusterRoleBinding, name: eclipse-che-cheworkspaces-clusterrole"
+time="2022-02-07T21:56:48Z" level=info msg="Added finalizer: cheWorkspaces.clusterpermissions.finalizers.che.eclipse.org"
+time="2022-02-07T21:56:48Z" level=info msg="Creating a new object: v1.ClusterRole, name: eclipse-che-cheworkspaces-namespaces-clusterrole"
+time="2022-02-07T21:56:48Z" level=info msg="Creating a new object: v1.ClusterRoleBinding, name: eclipse-che-cheworkspaces-namespaces-clusterrole"
+time="2022-02-07T21:56:48Z" level=info msg="Added finalizer: namespaces-editor.permissions.finalizers.che.eclipse.org"
+time="2022-02-07T21:56:48Z" level=info msg="Creating a new object: v1.ClusterRole, name: eclipse-che-cheworkspaces-devworkspace-clusterrole"
+time="2022-02-07T21:56:48Z" level=info msg="Creating a new object: v1.ClusterRoleBinding, name: eclipse-che-cheworkspaces-devworkspace-clusterrole"
+time="2022-02-07T21:56:48Z" level=info msg="Added finalizer: devWorkspace.permissions.finalizers.che.eclipse.org"
+time="2022-02-07T21:56:48Z" level=info msg="Creating a new object: v1.Secret, name: che-postgres-secret"
+time="2022-02-07T21:56:48Z" level=info msg="Custom resource spec eclipse-che updated with Postgres Secret: che-postgres-secret"
+time="2022-02-07T21:56:48Z" level=info msg="Custom resource spec eclipse-che updated with Postgres DB: dbche"
+time="2022-02-07T21:56:48Z" level=info msg="Custom resource spec eclipse-che updated with Postgres hostname: postgres"
+time="2022-02-07T21:56:49Z" level=info msg="Custom resource spec eclipse-che updated with Postgres port: 5432"
+time="2022-02-07T21:56:49Z" level=info msg="Custom resource spec eclipse-che updated with pvc strategy: common"
+time="2022-02-07T21:56:49Z" level=info msg="Custom resource spec eclipse-che updated with pvc claim size: 10Gi"
+time="2022-02-07T21:56:49Z" level=info msg="Creating a new object: v1.Route, name: che"
+I0207 21:56:51.537927       1 request.go:668] Waited for 1.043400427s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/tuned.openshift.io/v1?timeout=32s
+time="2022-02-07T21:56:59Z" level=info msg="Creating a new object: v1.Service, name: che-host"
+time="2022-02-07T21:56:59Z" level=info msg="Custom resource spec eclipse-che updated with CheHost URL: che-eclipse-che.apps.cluster-pb2d2.pb2d2.sandbox1409.opentlc.com"
+time="2022-02-07T21:56:59Z" level=info msg="Creating a new object: v1.Service, name: postgres"
+time="2022-02-07T21:56:59Z" level=info msg="Creating a new object: v1.PersistentVolumeClaim, name: postgres-data"
+time="2022-02-07T21:56:59Z" level=info msg="Creating a new object: v1.Deployment, name: postgres"
+I0207 21:57:01.544266       1 request.go:668] Waited for 1.110017501s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/discovery.k8s.io/v1?timeout=32s
+I0207 21:57:11.911089       1 request.go:668] Waited for 1.0450919s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/whereabouts.cni.cncf.io/v1alpha1?timeout=32s
+I0207 21:59:00.412086       1 request.go:668] Waited for 1.044177048s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/controlplane.operator.openshift.io/v1alpha1?timeout=32s
+time="2022-02-07T21:59:08Z" level=info msg="Running exec for 'get PostgreSQL version' in the pod 'postgres-775b84f475-69m5j'"
+time="2022-02-07T21:59:08Z" level=info msg="Exec successfully completed."
+time="2022-02-07T21:59:08Z" level=info msg="Custom resource spec eclipse-che updated with database.postgresVersion: 13.3"
+time="2022-02-07T21:59:08Z" level=info msg="Custom resource spec eclipse-che updated with oAuthClient name: eclipse-che-openshift-identity-provider-kmwgio"
+time="2022-02-07T21:59:08Z" level=info msg="Custom resource spec eclipse-che updated with oAuth secret name: tUHqqQOpnJlU"
+time="2022-02-07T21:59:08Z" level=info msg="Creating a new object: v1.OAuthClient, name: eclipse-che-openshift-identity-provider-kmwgio"
+time="2022-02-07T21:59:08Z" level=info msg="Added finalizer: oauthclients.finalizers.che.eclipse.org"
+time="2022-02-07T21:59:08Z" level=info msg="Creating a new object: v1.Service, name: devfile-registry"
+time="2022-02-07T21:59:09Z" level=info msg="Creating a new object: v1.ConfigMap, name: che-gateway-route-devfile-registry"
+time="2022-02-07T21:59:09Z" level=info msg="Custom resource status eclipse-che updated with status: Devfile Registry URL: https://che-eclipse-che.apps.cluster-pb2d2.pb2d2.sandbox1409.opentlc.com/devfile-registry"
+time="2022-02-07T21:59:09Z" level=info msg="Creating a new object: v1.ConfigMap, name: devfile-registry"
+time="2022-02-07T21:59:09Z" level=info msg="Creating a new object: v1.Deployment, name: devfile-registry"
+I0207 21:59:11.346994       1 request.go:668] Waited for 1.046007816s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/authorization.k8s.io/v1?timeout=32s
+I0207 21:59:21.366450       1 request.go:668] Waited for 1.090193686s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/flowcontrol.apiserver.k8s.io/v1beta1?timeout=32s
+time="2022-02-07T21:59:29Z" level=info msg="Creating a new object: v1.Service, name: plugin-registry"
+time="2022-02-07T21:59:29Z" level=info msg="Creating a new object: v1.ConfigMap, name: che-gateway-route-plugin-registry"
+time="2022-02-07T21:59:29Z" level=info msg="Custom resource status eclipse-che updated with status: Plugin Registry URL: https://che-eclipse-che.apps.cluster-pb2d2.pb2d2.sandbox1409.opentlc.com/plugin-registry/v3"
+time="2022-02-07T21:59:29Z" level=info msg="Creating a new object: v1.ConfigMap, name: plugin-registry"
+time="2022-02-07T21:59:29Z" level=info msg="Creating a new object: v1.Deployment, name: plugin-registry"
+I0207 21:59:31.724989       1 request.go:668] Waited for 1.023484585s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/autoscaling/v2beta2?timeout=32s
+I0207 21:59:41.738614       1 request.go:668] Waited for 1.136066251s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/discovery.k8s.io/v1?timeout=32s
+time="2022-02-07T21:59:49Z" level=info msg="Creating a new object: v1.Service, name: che-dashboard"
+time="2022-02-07T21:59:49Z" level=info msg="Creating a new object: v1.ConfigMap, name: che-gateway-route-che-dashboard"
+time="2022-02-07T21:59:49Z" level=info msg="Creating a new object: v1.ServiceAccount, name: che-dashboard"
+time="2022-02-07T21:59:49Z" level=info msg="Creating a new object: v1.Deployment, name: che-dashboard"
+I0207 21:59:51.967096       1 request.go:668] Waited for 1.017255813s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/authentication.k8s.io/v1?timeout=32s
+I0207 22:00:02.634360       1 request.go:668] Waited for 1.035067159s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/pipelines.openshift.io/v1alpha1?timeout=32s
+I0207 22:00:12.631208       1 request.go:668] Waited for 1.132365095s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/pipelines.openshift.io/v1alpha1?timeout=32s
+I0207 22:00:35.615492       1 request.go:668] Waited for 1.045866775s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/monitoring.coreos.com/v1alpha1?timeout=32s
+time="2022-02-07T22:00:43Z" level=info msg="Creating a new object: v1.ServiceAccount, name: che-gateway"
+time="2022-02-07T22:00:43Z" level=info msg="Creating a new object: v1.Role, name: che-gateway"
+time="2022-02-07T22:00:43Z" level=info msg="Creating a new object: v1.RoleBinding, name: che-gateway"
+time="2022-02-07T22:00:43Z" level=info msg="Creating a new object: v1.Secret, name: che-gateway-oauth-secret"
+time="2022-02-07T22:00:43Z" level=info msg="Creating a new object: v1.ConfigMap, name: che-gateway-config-oauth-proxy"
+time="2022-02-07T22:00:43Z" level=info msg="Creating a new object: v1.ConfigMap, name: che-gateway-config-kube-rbac-proxy"
+time="2022-02-07T22:00:43Z" level=info msg="Creating a new object: v1.ConfigMap, name: che-gateway-config-header-rewrite-traefik-plugin"
+time="2022-02-07T22:00:43Z" level=info msg="Creating a new object: v1.ConfigMap, name: che-gateway-config"
+time="2022-02-07T22:00:43Z" level=info msg="Creating a new object: v1.Deployment, name: che-gateway"
+time="2022-02-07T22:00:43Z" level=info msg="Creating a new object: v1.Service, name: che-gateway"
+time="2022-02-07T22:00:43Z" level=info msg="Creating a new object: v1.ConfigMap, name: che-gateway-route-server"
+time="2022-02-07T22:00:43Z" level=info msg="Creating a new object: v1.ConfigMap, name: che"
+time="2022-02-07T22:00:43Z" level=info msg="Creating a new object: v1.Deployment, name: che"
+I0207 22:00:45.994216       1 request.go:668] Waited for 1.050054006s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/org.eclipse.che/v1?timeout=32s
+I0207 22:00:56.002611       1 request.go:668] Waited for 1.17605226s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/coordination.k8s.io/v1?timeout=32s
+I0207 22:01:08.440181       1 request.go:668] Waited for 1.046916514s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/quota.openshift.io/v1?timeout=32s
+I0207 22:01:47.491685       1 request.go:668] Waited for 1.047052791s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/coordination.k8s.io/v1?timeout=32s
+time="2022-02-07T22:01:55Z" level=info msg="Eclipse Che is now available at: https://che-eclipse-che.apps.cluster-pb2d2.pb2d2.sandbox1409.opentlc.com"
+time="2022-02-07T22:01:55Z" level=info msg="Custom resource status eclipse-che updated with status: Che API: Available"
+time="2022-02-07T22:01:55Z" level=info msg="Custom resource status eclipse-che updated with che server URL: https://che-eclipse-che.apps.cluster-pb2d2.pb2d2.sandbox1409.opentlc.com"
+time="2022-02-07T22:01:55Z" level=info msg="Custom resource status eclipse-che updated with version: next"
+I0207 22:01:57.506504       1 request.go:668] Waited for 2.14273618s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/kafka.strimzi.io/v1beta2?timeout=32s
+time="2022-02-07T22:01:59Z" level=info msg="Creating a new object: v1.ConsoleLink, name: che"
+time="2022-02-07T22:01:59Z" level=info msg="Added finalizer: consolelink.finalizers.che.eclipse.org"
+time="2022-02-07T22:01:59Z" level=info msg="Successfully reconciled."
+I0207 22:02:07.918467       1 request.go:668] Waited for 1.046867541s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/scheduling.k8s.io/v1?timeout=32s
+time="2022-02-07T22:02:14Z" level=info msg="Successfully reconciled."
+I0207 22:02:17.966474       1 request.go:668] Waited for 2.723195164s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/kafka.strimzi.io/v1beta2?timeout=32s
+I0207 22:02:27.978770       1 request.go:668] Waited for 3.255965403s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/machine.openshift.io/v1beta1?timeout=32s
+time="2022-02-07T22:02:28Z" level=info msg="Successfully reconciled."

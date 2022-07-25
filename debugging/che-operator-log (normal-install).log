@@ -1,0 +1,279 @@
+2022-02-07T12:59:11.584Z	INFO	Binary info 	{"Go version": "go1.16.12"}
+2022-02-07T12:59:11.584Z	INFO	Binary info 	{"OS": "linux", "Arch": "amd64"}
+2022-02-07T12:59:11.584Z	INFO	Address 	{"Metrics": ":60000"}
+2022-02-07T12:59:11.584Z	INFO	Address 	{"Probe": ":6789"}
+2022-02-07T12:59:11.584Z	INFO	Operator is running on 	{"Infrastructure": "OpenShift v4.x"}
+I0207 12:59:12.642412       1 request.go:668] Waited for 1.04301089s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/console.openshift.io/v1?timeout=32s
+time="2022-02-07T12:59:14Z" level=info msg="Limit cache by selector: app.kubernetes.io/part-of=che.eclipse.org"
+2022-02-07T12:59:16.509Z	INFO	controller-runtime.metrics	metrics server is starting to listen	{"addr": ":60000"}
+time="2022-02-07T12:59:18Z" level=info msg="Use 'terminationGracePeriodSeconds' 20 sec. from operator deployment."
+time="2022-02-07T12:59:18Z" level=info msg="Set up process signal handler"
+2022-02-07T12:59:21.445Z	INFO	setup	DevWorkspace support enabled.
+2022-02-07T12:59:21.445Z	INFO	setup	starting manager
+I0207 12:59:21.445866       1 leaderelection.go:243] attempting to acquire leader lease openshift-operators/e79b08a4.org.eclipse.che...
+2022-02-07T12:59:21.445Z	INFO	controller-runtime.manager	starting metrics server	{"path": "/metrics"}
+I0207 12:59:21.482033       1 leaderelection.go:253] successfully acquired lease openshift-operators/e79b08a4.org.eclipse.che
+2022-02-07T12:59:21.482Z	INFO	controller-runtime.manager.controller.project	Starting EventSource	{"reconciler group": "project.openshift.io", "reconciler kind": "Project", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.482Z	INFO	controller-runtime.manager.controller.project	Starting EventSource	{"reconciler group": "project.openshift.io", "reconciler kind": "Project", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.482Z	INFO	controller-runtime.manager.controller.project	Starting EventSource	{"reconciler group": "project.openshift.io", "reconciler kind": "Project", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.482Z	INFO	controller-runtime.manager.controller.project	Starting EventSource	{"reconciler group": "project.openshift.io", "reconciler kind": "Project", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.482Z	INFO	controller-runtime.manager.controller.project	Starting Controller	{"reconciler group": "project.openshift.io", "reconciler kind": "Project"}
+2022-02-07T12:59:21.483Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.483Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.483Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.483Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.483Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.483Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.483Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.483Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.483Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.484Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.484Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.484Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.484Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.484Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.484Z	INFO	controller-runtime.manager.controller.checluster	Starting Controller	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster"}
+2022-02-07T12:59:21.485Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.485Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.485Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.485Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.486Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.486Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.486Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.486Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.486Z	INFO	controller-runtime.manager.controller.checluster	Starting EventSource	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.486Z	INFO	controller-runtime.manager.controller.checluster	Starting Controller	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster"}
+2022-02-07T12:59:21.486Z	INFO	controller-runtime.manager.controller.devworkspacerouting	Starting EventSource	{"reconciler group": "controller.devfile.io", "reconciler kind": "DevWorkspaceRouting", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.486Z	INFO	controller-runtime.manager.controller.devworkspacerouting	Starting EventSource	{"reconciler group": "controller.devfile.io", "reconciler kind": "DevWorkspaceRouting", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.486Z	INFO	controller-runtime.manager.controller.devworkspacerouting	Starting EventSource	{"reconciler group": "controller.devfile.io", "reconciler kind": "DevWorkspaceRouting", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.486Z	INFO	controller-runtime.manager.controller.devworkspacerouting	Starting EventSource	{"reconciler group": "controller.devfile.io", "reconciler kind": "DevWorkspaceRouting", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.486Z	INFO	controller-runtime.manager.controller.devworkspacerouting	Starting EventSource	{"reconciler group": "controller.devfile.io", "reconciler kind": "DevWorkspaceRouting", "source": "kind source: /, Kind="}
+2022-02-07T12:59:21.486Z	INFO	controller-runtime.manager.controller.devworkspacerouting	Starting Controller	{"reconciler group": "controller.devfile.io", "reconciler kind": "DevWorkspaceRouting"}
+2022-02-07T12:59:21.588Z	INFO	controller-runtime.manager.controller.project	Starting workers	{"reconciler group": "project.openshift.io", "reconciler kind": "Project", "worker count": 1}
+2022-02-07T12:59:21.598Z	INFO	controller-runtime.manager.controller.checluster	Starting workers	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "worker count": 1}
+2022-02-07T12:59:21.598Z	INFO	controller-runtime.manager.controller.checluster	Starting workers	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "worker count": 1}
+2022-02-07T12:59:21.602Z	INFO	controller-runtime.manager.controller.devworkspacerouting	Starting workers	{"reconciler group": "controller.devfile.io", "reconciler kind": "DevWorkspaceRouting", "worker count": 1}
+2022-02-07T12:59:21.623Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+2022-02-07T12:59:21.633Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+I0207 12:59:24.989417       1 request.go:668] Waited for 1.041149479s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/cloudcredential.openshift.io/v1?timeout=32s
+time="2022-02-07T12:59:28Z" level=info msg="Creating a new object: v1.ConfigMap, name: ca-certs-merged"
+2022-02-07T12:59:28.901Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+2022-02-07T12:59:28.908Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+2022-02-07T12:59:28.920Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+time="2022-02-07T12:59:29Z" level=info msg="Creating a new object: v1.Secret, name: self-signed-certificate"
+time="2022-02-07T12:59:33Z" level=info msg="Creating a new object: v1.ServiceAccount, name: che"
+2022-02-07T12:59:33.243Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+time="2022-02-07T12:59:33Z" level=info msg="Creating a new object: v1.ClusterRole, name: eclipse-che-che-gateway"
+2022-02-07T12:59:33.249Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+2022-02-07T12:59:33.253Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+2022-02-07T12:59:33.261Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+time="2022-02-07T12:59:33Z" level=info msg="Creating a new object: v1.ClusterRoleBinding, name: eclipse-che-che-gateway"
+2022-02-07T12:59:33.294Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+time="2022-02-07T12:59:33Z" level=info msg="Added finalizer: cheGateway.clusterpermissions.finalizers.che.eclipse.org"
+time="2022-02-07T12:59:33Z" level=info msg="Creating a new object: v1.ClusterRole, name: eclipse-che-cheworkspaces-clusterrole"
+2022-02-07T12:59:33.301Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+time="2022-02-07T12:59:33Z" level=info msg="Creating a new object: v1.ClusterRoleBinding, name: eclipse-che-cheworkspaces-clusterrole"
+2022-02-07T12:59:33.342Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+2022-02-07T12:59:33.346Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+time="2022-02-07T12:59:33Z" level=info msg="Added finalizer: cheWorkspaces.clusterpermissions.finalizers.che.eclipse.org"
+time="2022-02-07T12:59:33Z" level=info msg="Creating a new object: v1.ClusterRole, name: eclipse-che-cheworkspaces-namespaces-clusterrole"
+time="2022-02-07T12:59:33Z" level=info msg="Creating a new object: v1.ClusterRoleBinding, name: eclipse-che-cheworkspaces-namespaces-clusterrole"
+2022-02-07T12:59:33.402Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+time="2022-02-07T12:59:33Z" level=info msg="Added finalizer: namespaces-editor.permissions.finalizers.che.eclipse.org"
+2022-02-07T12:59:33.416Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+time="2022-02-07T12:59:33Z" level=info msg="Creating a new object: v1.ClusterRole, name: eclipse-che-cheworkspaces-devworkspace-clusterrole"
+time="2022-02-07T12:59:33Z" level=info msg="Creating a new object: v1.ClusterRoleBinding, name: eclipse-che-cheworkspaces-devworkspace-clusterrole"
+2022-02-07T12:59:33.463Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+time="2022-02-07T12:59:33Z" level=info msg="Added finalizer: devWorkspace.permissions.finalizers.che.eclipse.org"
+time="2022-02-07T12:59:33Z" level=info msg="Creating a new object: v1.Secret, name: che-postgres-secret"
+2022-02-07T12:59:33.492Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+time="2022-02-07T12:59:33Z" level=info msg="Custom resource spec eclipse-che updated with Postgres Secret: che-postgres-secret"
+2022-02-07T12:59:33.529Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+time="2022-02-07T12:59:33Z" level=info msg="Custom resource spec eclipse-che updated with Postgres DB: dbche"
+2022-02-07T12:59:33.542Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+time="2022-02-07T12:59:33Z" level=info msg="Custom resource spec eclipse-che updated with Postgres hostname: postgres"
+2022-02-07T12:59:33.556Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+2022-02-07T12:59:33.568Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+time="2022-02-07T12:59:33Z" level=info msg="Custom resource spec eclipse-che updated with Postgres port: 5432"
+time="2022-02-07T12:59:33Z" level=info msg="Custom resource spec eclipse-che updated with log level: INFO"
+time="2022-02-07T12:59:33Z" level=info msg="Creating a new object: v1.Route, name: che"
+2022-02-07T12:59:33.606Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "expecting exactly 1 route to match Che gateway labels but found 0"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+time="2022-02-07T12:59:33Z" level=info msg="Creating a new object: v1.Service, name: che-host"
+time="2022-02-07T12:59:33Z" level=info msg="Custom resource spec eclipse-che updated with CheHost URL: che-eclipse-che.apps.mloriedo-devworkspaces.devcluster.openshift.com"
+time="2022-02-07T12:59:33Z" level=info msg="Creating a new object: v1.Service, name: postgres"
+2022-02-07T12:59:33.870Z	ERROR	controller-runtime.manager.controller.checluster	Reconciler error	{"reconciler group": "org.eclipse.che", "reconciler kind": "CheCluster", "name": "eclipse-che", "namespace": "eclipse-che", "error": "Operation cannot be fulfilled on checlusters.org.eclipse.che \"eclipse-che\": the object has been modified; please apply your changes to the latest version and try again"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+time="2022-02-07T12:59:33Z" level=info msg="Creating a new object: v1.PersistentVolumeClaim, name: postgres-data"
+time="2022-02-07T12:59:33Z" level=info msg="Creating a new object: v1.Deployment, name: postgres"
+I0207 12:59:35.022020       1 request.go:668] Waited for 1.025930705s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/machine.openshift.io/v1beta1?timeout=32s
+I0207 12:59:45.029146       1 request.go:668] Waited for 3.593449199s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/helm.openshift.io/v1beta1?timeout=32s
+I0207 13:00:31.355688       1 request.go:668] Waited for 1.038103785s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/packages.operators.coreos.com/v1?timeout=32s
+time="2022-02-07T13:00:37Z" level=info msg="Running exec for 'get PostgreSQL version' in the pod 'postgres-8489d77856-bknhj'"
+time="2022-02-07T13:00:38Z" level=info msg="Exec successfully completed."
+time="2022-02-07T13:00:38Z" level=info msg="Custom resource spec eclipse-che updated with database.postgresVersion: 13.3"
+time="2022-02-07T13:00:38Z" level=info msg="Custom resource spec eclipse-che updated with oAuthClient name: eclipse-che-openshift-identity-provider-lsfuat"
+time="2022-02-07T13:00:38Z" level=info msg="Custom resource spec eclipse-che updated with oAuth secret name: CShRtNR7xTDB"
+time="2022-02-07T13:00:38Z" level=info msg="Creating a new object: v1.OAuthClient, name: eclipse-che-openshift-identity-provider-lsfuat"
+time="2022-02-07T13:00:38Z" level=info msg="Added finalizer: oauthclients.finalizers.che.eclipse.org"
+time="2022-02-07T13:00:38Z" level=info msg="Creating a new object: v1.Service, name: devfile-registry"
+time="2022-02-07T13:00:38Z" level=info msg="Creating a new object: v1.ConfigMap, name: che-gateway-route-devfile-registry"
+time="2022-02-07T13:00:38Z" level=info msg="Custom resource status eclipse-che updated with status: Devfile Registry URL: https://che-eclipse-che.apps.mloriedo-devworkspaces.devcluster.openshift.com/devfile-registry"
+time="2022-02-07T13:00:38Z" level=info msg="Creating a new object: v1.ConfigMap, name: devfile-registry"
+time="2022-02-07T13:00:38Z" level=info msg="Creating a new object: v1.Deployment, name: devfile-registry"
+I0207 13:00:41.361826       1 request.go:668] Waited for 2.969756254s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/migration.k8s.io/v1alpha1?timeout=32s
+I0207 13:00:51.522419       1 request.go:668] Waited for 1.038914504s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/route.openshift.io/v1?timeout=32s
+I0207 13:01:02.027820       1 request.go:668] Waited for 1.045830907s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/workspace.devfile.io/v1alpha1?timeout=32s
+time="2022-02-07T13:01:05Z" level=info msg="Creating a new object: v1.Service, name: plugin-registry"
+time="2022-02-07T13:01:06Z" level=info msg="Creating a new object: v1.ConfigMap, name: che-gateway-route-plugin-registry"
+time="2022-02-07T13:01:06Z" level=info msg="Custom resource status eclipse-che updated with status: Plugin Registry URL: https://che-eclipse-che.apps.mloriedo-devworkspaces.devcluster.openshift.com/plugin-registry/v3"
+time="2022-02-07T13:01:06Z" level=info msg="Creating a new object: v1.ConfigMap, name: plugin-registry"
+time="2022-02-07T13:01:06Z" level=info msg="Creating a new object: v1.Deployment, name: plugin-registry"
+I0207 13:01:12.040352       1 request.go:668] Waited for 2.194807538s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/tuned.openshift.io/v1?timeout=32s
+I0207 13:01:22.200080       1 request.go:668] Waited for 1.044752765s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/console.openshift.io/v1?timeout=32s
+time="2022-02-07T13:01:23Z" level=info msg="Creating a new object: v1.Service, name: che-dashboard"
+time="2022-02-07T13:01:23Z" level=info msg="Creating a new object: v1.ConfigMap, name: che-gateway-route-che-dashboard"
+time="2022-02-07T13:01:23Z" level=info msg="Creating a new object: v1.ServiceAccount, name: che-dashboard"
+time="2022-02-07T13:01:23Z" level=info msg="Creating a new object: v1.Deployment, name: che-dashboard"
+I0207 13:01:32.219648       1 request.go:668] Waited for 2.194103244s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/migration.k8s.io/v1alpha1?timeout=32s
+I0207 13:01:45.129432       1 request.go:668] Waited for 1.031813003s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/storage.k8s.io/v1?timeout=32s
+time="2022-02-07T13:01:51Z" level=info msg="Creating a new object: v1.ServiceAccount, name: che-gateway"
+time="2022-02-07T13:01:51Z" level=info msg="Creating a new object: v1.Role, name: che-gateway"
+time="2022-02-07T13:01:51Z" level=info msg="Creating a new object: v1.RoleBinding, name: che-gateway"
+time="2022-02-07T13:01:51Z" level=info msg="Creating a new object: v1.Secret, name: che-gateway-oauth-secret"
+time="2022-02-07T13:01:51Z" level=info msg="Creating a new object: v1.ConfigMap, name: che-gateway-config-oauth-proxy"
+time="2022-02-07T13:01:51Z" level=info msg="Creating a new object: v1.ConfigMap, name: che-gateway-config-kube-rbac-proxy"
+time="2022-02-07T13:01:51Z" level=info msg="Creating a new object: v1.ConfigMap, name: che-gateway-config-header-rewrite-traefik-plugin"
+time="2022-02-07T13:01:51Z" level=info msg="Creating a new object: v1.ConfigMap, name: che-gateway-config"
+time="2022-02-07T13:01:51Z" level=info msg="Creating a new object: v1.Deployment, name: che-gateway"
+time="2022-02-07T13:01:51Z" level=info msg="Creating a new object: v1.Service, name: che-gateway"
+time="2022-02-07T13:01:51Z" level=info msg="Creating a new object: v1.ConfigMap, name: che-gateway-route-server"
+time="2022-02-07T13:01:51Z" level=info msg="Creating a new object: v1.ConfigMap, name: che"
+time="2022-02-07T13:01:51Z" level=info msg="Creating a new object: v1.Deployment, name: che"
+I0207 13:01:55.140661       1 request.go:668] Waited for 3.279132419s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/workspace.devfile.io/v1alpha1?timeout=32s
+I0207 13:02:05.298801       1 request.go:668] Waited for 1.045048448s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/snapshot.storage.k8s.io/v1?timeout=32s
+I0207 13:02:19.854598       1 request.go:668] Waited for 1.036898162s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/cloudcredential.openshift.io/v1?timeout=32s
+I0207 13:03:06.321982       1 request.go:668] Waited for 1.037441012s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/workspace.devfile.io/v1alpha2?timeout=32s
+time="2022-02-07T13:03:12Z" level=info msg="Eclipse Che is now available at: https://che-eclipse-che.apps.mloriedo-devworkspaces.devcluster.openshift.com"
+time="2022-02-07T13:03:12Z" level=info msg="Custom resource status eclipse-che updated with status: Che API: Available"
+time="2022-02-07T13:03:12Z" level=info msg="Custom resource status eclipse-che updated with che server URL: https://che-eclipse-che.apps.mloriedo-devworkspaces.devcluster.openshift.com"
+time="2022-02-07T13:03:12Z" level=info msg="Custom resource status eclipse-che updated with version: next"
+I0207 13:03:16.328983       1 request.go:668] Waited for 3.571026156s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/workspace.devfile.io/v1alpha1?timeout=32s
+time="2022-02-07T13:03:16Z" level=info msg="Creating a new object: v1.ConsoleLink, name: che"
+time="2022-02-07T13:03:16Z" level=info msg="Added finalizer: consolelink.finalizers.che.eclipse.org"
+time="2022-02-07T13:03:16Z" level=info msg="Successfully reconciled."
+I0207 13:03:26.587375       1 request.go:668] Waited for 1.043252361s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/admissionregistration.k8s.io/v1?timeout=32s
+time="2022-02-07T13:03:29Z" level=info msg="Successfully reconciled."
+I0207 13:03:36.843231       1 request.go:668] Waited for 1.046060721s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/cloudcredential.openshift.io/v1?timeout=32s
+time="2022-02-07T13:03:42Z" level=info msg="Successfully reconciled."
+2022-02-07T13:06:10.193Z	INFO	controllers.DevWorkspaceRouting	Reconciling DevWorkspaceRouting	{"Request.Namespace": "che-kube-admin-che-b00ysx", "Request.Name": "routing-workspaceda378b76935b4bf6", "devworkspace_id": "workspaceda378b76935b4bf6"}
+2022-02-07T13:06:10.193Z	INFO	controllers.DevWorkspaceRouting	Adding Finalizer for the DevWorkspaceRouting	{"Request.Namespace": "che-kube-admin-che-b00ysx", "Request.Name": "routing-workspaceda378b76935b4bf6", "devworkspace_id": "workspaceda378b76935b4bf6"}
+2022-02-07T13:06:10.219Z	INFO	sync	Creating a new object	{"kind": "v1.ConfigMap", "name": "workspaceda378b76935b4bf6-route", "namespace": "eclipse-che"}
+2022-02-07T13:06:10.235Z	INFO	sync	Creating a new object	{"kind": "v1.ConfigMap", "name": "workspaceda378b76935b4bf6-route", "namespace": "che-kube-admin-che-b00ysx"}
+2022-02-07T13:06:10.294Z	INFO	controllers.DevWorkspaceRouting	Created object	{"Request.Namespace": "che-kube-admin-che-b00ysx", "Request.Name": "routing-workspaceda378b76935b4bf6", "kind": "v1.Service", "name": "workspaceda378b76935b4bf6-service"}
+2022-02-07T13:06:10.295Z	INFO	controllers.DevWorkspaceRouting	Services not in sync	{"Request.Namespace": "che-kube-admin-che-b00ysx", "Request.Name": "routing-workspaceda378b76935b4bf6", "devworkspace_id": "workspaceda378b76935b4bf6"}
+2022-02-07T13:06:10.321Z	INFO	controllers.DevWorkspaceRouting	Reconciling DevWorkspaceRouting	{"Request.Namespace": "che-kube-admin-che-b00ysx", "Request.Name": "routing-workspaceda378b76935b4bf6", "devworkspace_id": "workspaceda378b76935b4bf6"}
+2022-02-07T13:06:10.485Z	INFO	controllers.DevWorkspaceRouting	Created object	{"Request.Namespace": "che-kube-admin-che-b00ysx", "Request.Name": "routing-workspaceda378b76935b4bf6", "kind": "v1.Route", "name": "workspaceda378b76935b4bf6-tools-8080-8080-tcp"}
+2022-02-07T13:06:10.485Z	INFO	controllers.DevWorkspaceRouting	Routes not in sync	{"Request.Namespace": "che-kube-admin-che-b00ysx", "Request.Name": "routing-workspaceda378b76935b4bf6", "devworkspace_id": "workspaceda378b76935b4bf6"}
+2022-02-07T13:06:10.498Z	INFO	controllers.DevWorkspaceRouting	Reconciling DevWorkspaceRouting	{"Request.Namespace": "che-kube-admin-che-b00ysx", "Request.Name": "routing-workspaceda378b76935b4bf6", "devworkspace_id": "workspaceda378b76935b4bf6"}
+2022-02-07T13:06:10.516Z	ERROR	controller-runtime.manager.controller.devworkspacerouting	Reconciler error	{"reconciler group": "controller.devfile.io", "reconciler kind": "DevWorkspaceRouting", "name": "routing-workspaceda378b76935b4bf6", "namespace": "che-kube-admin-che-b00ysx", "error": "Operation cannot be fulfilled on devworkspaceroutings.controller.devfile.io \"routing-workspaceda378b76935b4bf6\": the object has been modified; please apply your changes to the latest version and try again"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:253
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/che-operator/vendor/sigs.k8s.io/controller-runtime/pkg/internal/controller/controller.go:214
+2022-02-07T13:06:10.516Z	INFO	controllers.DevWorkspaceRouting	Reconciling DevWorkspaceRouting	{"Request.Namespace": "che-kube-admin-che-b00ysx", "Request.Name": "routing-workspaceda378b76935b4bf6", "devworkspace_id": "workspaceda378b76935b4bf6"}
+2022-02-07T13:06:10.550Z	INFO	controllers.DevWorkspaceRouting	Reconciling DevWorkspaceRouting	{"Request.Namespace": "che-kube-admin-che-b00ysx", "Request.Name": "routing-workspaceda378b76935b4bf6", "devworkspace_id": "workspaceda378b76935b4bf6"}
+I0207 13:06:11.321447       1 request.go:668] Waited for 1.043163732s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/authorization.openshift.io/v1?timeout=32s
+I0207 13:06:21.327524       1 request.go:668] Waited for 3.572515721s due to client-side throttling, not priority and fairness, request: GET:https://172.30.0.1:443/apis/helm.openshift.io/v1beta1?timeout=32s
+time="2022-02-07T13:06:21Z" level=info msg="Successfully reconciled."
+2022-02-07T13:13:52.368Z	INFO	controllers.DevWorkspaceRouting	Reconciling DevWorkspaceRouting	{"Request.Namespace": "che-kube-admin-che-b00ysx", "Request.Name": "routing-workspaceda378b76935b4bf6", "devworkspace_id": "workspaceda378b76935b4bf6"}
