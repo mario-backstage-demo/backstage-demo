@@ -1,27 +1,24 @@
-apiVersion: org.eclipse.che/v1
+apiVersion: org.eclipse.che/v2
 kind: CheCluster
 metadata:
   name: eclipse-che
   namespace: eclipse-che
 spec:
-  server:
-    cheLogLevel: INFO
-    dashboardIngress: {}
-    externalDevfileRegistry: false
-    pluginRegistryIngress: {}
-    cheServerRoute: {}
-    devfileRegistryIngress: {}
-    selfSignedCert: false
-    cheServerIngress: {}
-    cheDebug: 'false'
-    tlsSupport: true
-    dashboardRoute: {}
-    allowUserDefinedWorkspaceNamespaces: false
-    pluginRegistryRoute: {}
-    devfileRegistryRoute: {}
-    externalPluginRegistry: false
-    workspaceNamespaceDefault: <username>-che
-    gitSelfSignedCert: false
-    useInternalClusterSVCNames: false
-  devWorkspace:
-    enable: true
+  components:
+    cheServer: {}
+    dashboard: {}
+    database: {}
+    devWorkspace: {}
+    devfileRegistry: {}
+    imagePuller: {}
+    metrics: {}
+    pluginRegistry: {}
+  containerRegistry: {}
+  devEnvironments:
+    defaultNamespace:
+      template: <username>-che
+    secondsOfInactivityBeforeIdling: 1800
+    secondsOfRunBeforeIdling: -1
+    storage:
+      pvcStrategy: common
+  networking: {}
